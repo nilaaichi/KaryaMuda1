@@ -1,0 +1,371 @@
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: #def0fb;
+	max-height: 1200px;
+}
+.atas{
+	width: 100%;
+	height: 50px;
+	background: #76b3b8;
+}
+.bawah{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	color: white;
+	background: #76b3b8;
+	margin-top: 20px;
+	position: absolute;
+}
+.kiri{
+	width: 190px;
+	height: 800px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.tengah{
+	width: 895px;
+	min-height: 1275px;
+	background: #ffffff;
+	margin-left: 230px;
+	margin-top: -800px;
+}
+.kanan{
+	position: absolute;
+	width: 190px;
+	height: 580px;
+	background: #ffffff;
+margin-left: 1145px;
+margin-top: -1275px;
+}
+#logopojok img{
+	width: 40px;
+	height: 40px;
+	background-image: url(img/komunitas.png);
+	margin-left: 1300px;
+	margin-top: 5px;
+	border-radius: 50%;
+}
+#cari{
+	width: 200px;
+	height: 30px;
+	margin-left: 1040px;
+	margin-top: -45px;
+	background: #76b3b8;
+}
+input[type=text] {
+    width: 200px;
+    height: 30px;
+     border: 1px solid #ffffff;
+    border-radius: 4px;
+    background: #76b3b8;
+    background-image: url('img/Search.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    font-size: 15px;
+       color: #ffffff;
+       padding-left: 40px;
+}
+#opsi{
+	width: 280px;
+	height: 50px;
+	line-height: 50px;
+	color: #ffffff;
+	background: #ffffff;
+	margin-top: -35px;
+	margin-left: 730px;
+	color: #fff;
+}
+.button1 {
+    background-color: #76b3b8;
+    color: white; 
+    border: none;
+    color: white;
+    height: 50px;
+    width: 140px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #def0fb;
+    color: #76b3b8;
+}
+
+.button2 {
+    background-color: #76b3b8;
+    color: white; 
+    margin-left: 140px;
+    margin-top: -50px;
+    border: none;
+    color: white;
+    height: 50px;
+    width: 140px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button2:hover {
+    background-color: #def0fb;
+    color: #76b3b8;
+}
+#logo{
+	width:190px; 
+	height: 170px;
+	margin-left: 10px;
+}
+#logo img{
+	width: 160px;
+	height: 160px;
+
+}
+#profil{
+	width:190px; 
+	height: 150px;
+	margin-top: 5px;
+}
+#hprofil{
+	width:190px; 
+	height: 30px;
+	line-height: 30px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	background: #76b3b8;
+}
+#iprofil{
+	width:190px; 
+	height: 80px;
+	line-height: 10px;
+	background: white;
+	color:#76b3b8;
+	text-align: center;
+	padding-top: 10px;
+}
+#hlaman{
+	width:190px; 
+	height: 30px;
+	line-height: 30px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	background: #76b3b8;
+	margin-top: -40px;
+}
+#ilaman{
+	width:190px; 
+	height: 250px;
+	line-height: 10px;
+	background: white;
+	color:#76b3b8;
+	text-align: center;
+	padding-top: 10px;
+}
+.btn-group .button {
+    background-color: #ffffff; 
+    border: 1px solid white;
+    color:#76b3b8;
+    height :40px;
+    line-height: 40px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    cursor: pointer;
+    width: 190px;
+    display: block;
+    text-indent: 10px;
+
+}
+.btn-group .button:not(:last-child) {
+    border-bottom: none; 
+}
+
+.btn-group .button:hover {
+    background-color: #cccccc;
+    color: white;
+       width : 190px;
+    height :40px;
+}
+.button img{
+	width: 20px;
+	height: 20px;
+	margin-right: 30px;
+}
+#htengah{
+	width: 895px;
+	height: 50px;
+	background: #76b3b8;
+}
+.button3 {
+	background-color: #5fa7ac;
+    color: white; 
+    border: none;
+    color: white;
+    height: 50px;
+    width: 298px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    float: left;
+}
+
+.button3:hover {
+    background-color: #76b3b8;
+    color: white;
+}
+
+#rating1{
+	margin-top:  10px;
+	margin-left:20px; 
+	width: 150px;
+	height: 89px;
+	color: black;
+	background: #cccccc;
+}
+#konten section{
+	min-height: 250px;
+	background: #e6e6e6;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b5f59', endColorstr='#362f2d',GradientType=1 ); 
+	color: #d9d6d5;
+	margin-left: 20px;
+	width: 855px;
+
+}
+
+#konten section:nth-child(3n+2){
+	background: #dddbdb;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efe7dc', endColorstr='#c6b6a4',GradientType=1 ); 
+	color: #25201e;
+}
+
+#konten section:nth-child(3n+3){
+	background: #c9c9c9;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6fbfc', endColorstr='#94cbce',GradientType=1 ); 
+	color: #25201e;
+}
+
+.konten{
+	padding: 1em 3em;
+	margin-top: 20px;
+}
+
+.konten hr + a, .konten hr + a + a{
+	margin-right: 2em;
+}
+
+.mPS2id-target .konten h3:first-child:after{
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	margin-left: 1em;
+	font-size: 0.25em;
+	line-height: 1.4em;
+	font-style: italic;
+	opacity: 0.7;
+	width: 180px;
+	font-family: arial,sans-serif;
+	font-weight: normal;
+}
+#bgAtas{
+	height: 80px;
+	width: 850px;
+	margin-top: -15px;
+	margin-left: -45px;
+}
+#bgBawah{
+	height: 200px;
+	width: 850px;
+	margin-top: -15px;
+	margin-left: -45px;
+}
+
+#logokecil img{
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+#komunitas{
+	width:190px; 
+	height: 40px;
+	line-height: 40px;
+	color: black;
+	font-size: 15px;
+	text-align: left;
+	margin-top: -70px;
+	margin-left: 70px;
+	position: absolute;
+}
+#nmkomunitas{
+	width:190px; 
+	height: 40px;
+	line-height: 40px;
+	color: black;
+	font-size: 15px;
+	text-align: left;
+	margin-top: -50px;
+	margin-left: 70px;
+	position: absolute;
+}
+#statusberita{
+	width: 135px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	margin-left: 700px;
+	margin-top: -65px;
+	background: #4291ce;
+}
+#statusberita:hover{
+    background-color: #76b3b8;
+    color: white;
+    width: 135px;
+	height: 35px;
+	line-height: 40px;
+}
+#foto{
+width: 290px;
+height: 200px;
+background: #c5c5c5;
+margin-left: 10px;
+}
+#foto img{
+width: 290px;
+height: 200px;
+}
+#isiberita{
+width: 520px;
+height: 200px;
+padding: 10px;
+margin-top: -220px;
+margin-left: 310px;
+text-align: justify;
+text-indent: 20px;
+color: black;
+}
+#isiberita a{
+	color: #4291ce;
+	font-size: 18px;
+} 
+}
